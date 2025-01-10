@@ -1,0 +1,45 @@
+задачи используйте тип переменной var.
+
+В программе IDEA в новом созданном вами проекте присвойте переменной:
+
+    dog значение 8;
+    cat значение 3.6;
+    paper значение 763789;
+
+Выведите значения каждой пе System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);ременной в консоль.
+        
+        
+        
+        
+        
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
+        
+        
+        
+        
+
+
+public class Main {
+    public static void main(String[] args) {
+        var dog = 8;
+        var cat =3.6;
+        var paper = 763789;
+        System.out.println(dog + "\n" + cat + "\n" + paper);
+    }
+}
+
+public class Plural {
+    public static void main(String[] args) {
+        var dog = 8;
+        dog = dog + 4;
+        var cat = 3.6;
+        cat = cat + 4;
+        var paper = 763789;
+        paper = paper + 4;
+        System.out.println(dog + "\n" + cat + "\n" + paper);
+    }
+}

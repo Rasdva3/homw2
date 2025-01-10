@@ -34,8 +34,30 @@ public class Main {
         System.out.println(frog);
         frog = frog / 4;
         System.out.println(frog);
-        frog = frog = 4;
+        frog = frog + 4;
         System.out.println(frog);
+
+        // Task 6
+
+        var weigthFirst = 78.2;
+        var weigthSecond = 82.7;
+        var generalWeigth = weigthSecond + weigthSecond;
+        System.out.println("Общий вес бойцов " + generalWeigth);
+        var differenceWeight = weigthSecond - weigthFirst;
+        System.out.println(differenceWeight + " кг разница между бойцами");
+        var otherWayCount = weigthSecond % weigthFirst;
+        System.out.println(otherWayCount + " Разница через %");
+
+        // Task 8
+
+        var generalTime = 640;
+        var employee = generalTime / 8;
+        System.out.println("Всего работников в компании- " + employee);
+        var employeePlus = (employee + 94);
+        var totalTime = generalTime / employeePlus;
+        System.out.println("Если в компании работает, " + employeePlus + " то всего " + totalTime + " часов работы может быть поделено межу сотрудниками." );
+
+
     }
 }
 

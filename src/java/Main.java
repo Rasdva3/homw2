@@ -16,6 +16,26 @@ public class Main {
         dog = dog - 3.5;
         cat = cat - 1.6;
         paper = paper -7639;
+
+        //Task 4
+
+        var friend = 19;
+        System.out.println(friend);
+        friend = friend + 2;
+        System.out.println(friend);
+        friend = friend / 7;
+        System.out.println(friend);
+
+        //Task 5
+
+        var frog = 3.5;
+        System.out.println(frog);
+        frog = frog * 10.0;
+        System.out.println(frog);
+        frog = frog / 4;
+        System.out.println(frog);
+        frog = frog = 4;
+        System.out.println(frog);
     }
 }
 

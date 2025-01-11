@@ -1,7 +1,7 @@
 // Task 1
 public class Main {
     public static void main(String[] args) {
-        var dog = 8.0;
+        double dog = 8;
         var cat =3.6;
         var paper = 763789;
         System.out.println(dog + "\n" + cat + "\n" + paper);
@@ -55,7 +55,7 @@ public class Main {
         System.out.println("Всего работников в компании- " + employee);
         var employeePlus = (employee + 94);
         var totalTime = generalTime / employeePlus;
-        System.out.println("Если в компании работает, " + employeePlus + " то всего " + totalTime + " часов работы может быть поделено межу сотрудниками." );
+        System.out.println("Если в компании работает, " + employeePlus + " то всего " + totalTime + " часов работы может быть поделено между сотрудниками." );
 
 
     }
